@@ -1,0 +1,92 @@
+/* Dashboard.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boxStyle {
+  border: 3px solid #1b0f0f;
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 400px; /* Increase the max-width to make the card wider */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.deleteList {
+  display: block;
+  margin-left: auto;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteList:hover {
+  background-color: #cc0000;
+}
+
+.dashboardButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.homepageButton {
+  text-decoration: none;
+  font-size: 12px;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #1b0f0f;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #1b0f0f;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.homepageButton.active-button {
+  background-color: rgb(0, 255, 106);
+  color: white;
+}
+
+.addHomepage {
+  align-items: center;
+  margin:auto;
+}
+
+.addHomepage input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #1b0f0f;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.addHomepage button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1b0f0f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.addHomepage button:hover {
+  background-color: #000000;
+}
+
+#homepageNameInput {
+  padding: 5px 10px;
+  border: 1px solid #1b0f0f;
+  border-radius: 5px;
+  width: 100px; /* Set a fixed width for the input */
+}
